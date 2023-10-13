@@ -1,1 +1,3 @@
 https://pgmpy.org/detailed_notebooks/7.%20Parameterizing%20with%20Continuous%20Variables.html
+
+https://www.linkedin.com/advice/1/what-advantages-disadvantages-equal-width?locale=en
