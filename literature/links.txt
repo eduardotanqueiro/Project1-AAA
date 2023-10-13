@@ -1,0 +1,1 @@
+https://pgmpy.org/detailed_notebooks/7.%20Parameterizing%20with%20Continuous%20Variables.html
