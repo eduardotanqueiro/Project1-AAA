@@ -4,3 +4,7 @@ P1.zip
 P1_project_statement.pdf
 
 /venv_AML
+
+.DS_store
+
+/python-aml
