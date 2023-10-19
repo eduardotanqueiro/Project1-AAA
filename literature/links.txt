@@ -3,3 +3,5 @@ https://pgmpy.org/detailed_notebooks/7.%20Parameterizing%20with%20Continuous%20V
 https://www.linkedin.com/advice/1/what-advantages-disadvantages-equal-width?locale=en
 
 https://pgmpy.org/exact_infer/model_testing.html
+
+https://medium.com/@nahmed3536/the-motivation-for-train-test-split-2b1837f596c3
