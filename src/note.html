@@ -14580,7 +14580,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Advanced-Machine-Learning---Project-1">Advanced Machine Learning - Project 1<a class="anchor-link" href="#Advanced-Machine-Learning---Project-1">&#182;</a></h1><p>As cardiovascular diseases are cause of a big part of deaths worldwide, it is important to be able to <strong>predict</strong> them. In this project, we will try to predict the presence or absence of cardiovascular disease using the patient examination results and techniques related with <strong>Bayesian Networks</strong>.</p>
+<h1 id="Advanced-Machine-Learning---Project-1">Advanced Machine Learning - Project 1<a class="anchor-link" href="#Advanced-Machine-Learning---Project-1">&#182;</a></h1><ul>
+<li>Eduardo Carneiro - 62515</li>
+<li>Til Dietrich - 62928</li>
+</ul>
+<p>As cardiovascular diseases are cause of a big part of deaths worldwide, it is important to be able to <strong>predict</strong> them. In this project, we will try to predict the presence or absence of cardiovascular disease using the patient examination results and techniques related with <strong>Bayesian Networks</strong>.</p>
 
 </div>
 </div>
@@ -15225,7 +15229,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We recode categorical and ordinal variables into strings for interpretable categoriesa there is no need for purely numerical inputs in bayesian networks and it improves readability of CDP outputs.</p>
+<p>We recode categorical and ordinal variables into strings for interpretable categories as there is no need for purely numerical inputs in bayesian networks and it improves readability of CDP outputs.</p>
 
 </div>
 </div>
@@ -19202,7 +19206,7 @@ weighted avg       0.79      0.80      0.79       807
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="9.-Conclusion-and-next-steps">9. Conclusion and next steps<a class="anchor-link" href="#9.-Conclusion-and-next-steps">&#182;</a></h1><p>This notebook outlines the pipeline for esimating a Bayesian Network, predicting the presence/absence of CHD. It already shows a high accuracy score which is mainly driven by its strength to correctly predict the absence of CHD. As the model shows to have some difficulties in predicting the presence of CHD, there is still room for improvement. From here, we see two main steps forward:</p>
 <ol>
-<li>Given that we observed a strong impact of the SMOTE-NC and Undersampling technique, the next experiments would entail tweaking the distriubtion of majority and minority class. </li>
+<li>Given that we observed a strong impact of the SMOTE-NC and Undersampling technique, the next experiments would entail tweaking the distribution of majority and minority class. </li>
 <li>Contacting a medical professional to get more domain knowledge and going over the variable categories to refine them, could be another way forward in improving the model.</li>
 </ol>
 
@@ -20367,32 +20371,6 @@ weighted avg       0.76      0.75      0.76       807
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Model testing</span>
-
-<span class="c1"># --- This is not working properly, so I just bypassed it --</span>
-<span class="c1"># from pgmpy.metrics import correlation_score</span>
-<span class="c1"># best_estimator = ""</span>
-<span class="c1"># val = -1</span>
-<span class="c1"># for score_method_name in sl_results.keys():</span>
-<span class="c1">#     cor_score = correlation_score( sl_results[score_method_name] ,train_data)</span>
-<span class="c1">#     if cor_score &gt;  val:</span>
-<span class="c1">#         best_estimator = score_method_name</span>
-<span class="c1">#     print(f'Score {score_method_name} method: {cor_score}')</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
